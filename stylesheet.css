@@ -7,35 +7,27 @@ html {
   height: 100%;
 }
 
+body {
+  background-color: rgb(247, 235, 214);
+  display: flex;
+  margin: 0;
+}
+
 /* ======================================================================
 ============ welcome page =================================
 ================================================================= */
 #welcomePage {
-  background-image: url(./img/amazing\ -\ 7\ -\ historic\ sites\ -\ historic\ sites.png);
+  background-image: url(./img/amazing\ -\ 7\ -\ historical\ sites\ -\ historical\ sites.png);
   background-color: black;
-  height: 80vh;
-  margin: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
   width: 100vw;
-  display: block;
-  margin: auto;
+  height: 100vh;
+  display: flex;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
-  width: 100vw;
-  height: 100vh;
-  align-items: center;
+  align-items: top;
 }
-
-/* #welcomeImage {
-  position: relative;
-  display: inline-block;
-  width: 800px;
-} */
 
 #startButton {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -66,9 +58,46 @@ html {
 }
 
 /* ======================================================================
-============             Main page          =================================
+============             home page          =================================
 ================================================================= */
 
 main {
   height: 100%;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: rgb(239, 80, 52); */
+}
+
+#home {
+  height: 100%;
+  width: 85vw;
+  background-color: rgb(245, 223, 182);
+  margin: auto;
+}
+
+#logo {
+  width: 85vw;
+}
+
+#navbar {
+  display: flex;
+  /* color: rgb(188, 185, 169); */
+  color: rgb(129, 127, 117);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 110px;
+  width: 85vw;
+}
+
+.nav {
+  font-size: 50px;
+  font-family: "Yellowtail", cursive;
+  padding: 15px 50px 15px 50px;
+  border-radius: 10px;
+}
+
+.nav:hover {
+  background-color: rgb(247, 235, 214);
 }
