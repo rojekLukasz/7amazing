@@ -19,16 +19,17 @@ body {
 
 main {
   height: 100%;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  width: 85vw;
+  display: block;
+  margin: auto;
   /* background-color: rgb(239, 80, 52); */
+  background-color: rgb(245, 223, 182);
 }
 
 #home {
-  height: 100%;
-  width: 85vw;
-  background-color: rgb(245, 223, 182);
+  height: auto;
+  width: auto;
+  /* background-color: rgb(245, 223, 182); */
   margin: auto;
 }
 
@@ -62,4 +63,49 @@ a {
   font-size: 50px;
   font-family: "Yellowtail", cursive;
   text-decoration: none;
+}
+
+.container {
+  background-color: rgb(245, 223, 182);
+  padding-bottom: 50px;
+}
+
+.photoFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img1 {
+  width: 75%;
+  height: 38%;
+  margin: auto;
+}
+
+.img2 {
+  width: 75%;
+  height: 38%;
+  margin: auto;
+  display: none;
+}
+
+.img3 {
+  width: 75%;
+  height: 38%;
+  margin: auto;
+  display: none;
+}
+
+h6 {
+  text-align: end;
+  font-size: 14px;
+  margin-right: 120px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  margin: 10px 150px 10px 150px;
 }
