@@ -83,21 +83,27 @@ main {
 #navbar {
   display: flex;
   /* color: rgb(188, 185, 169); */
-  color: rgb(129, 127, 117);
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  height: 110px;
+  height: auto;
   width: 85vw;
+  background-color: rgb(245, 217, 165);
+  background-size: cover;
 }
 
-.nav {
-  font-size: 50px;
-  font-family: "Yellowtail", cursive;
+.navButton {
   padding: 15px 50px 15px 50px;
   border-radius: 10px;
 }
 
-.nav:hover {
+.navButton:hover {
   background-color: rgb(247, 235, 214);
+}
+
+a {
+  color: rgb(129, 127, 117);
+  font-size: 50px;
+  font-family: "Yellowtail", cursive;
+  text-decoration: none;
 }
