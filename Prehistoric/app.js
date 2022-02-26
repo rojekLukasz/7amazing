@@ -90,7 +90,7 @@ class Sites {
     
   
 	this.createContainer = function() { 
-		document.getElementById("sitesCaontainer").innerHTML = `
+    tempSitesData +=	 `
   <div class='container'>
     <div class='photoFrame'>
       <img  class='img1' src='${this.img1}' alt='photo of ${this.name}'>
@@ -101,6 +101,7 @@ class Sites {
       <h1>${this.id}.${this.name}</h1>
       <h3>${this.discription}</h3>
   </div>`;
+  document.getElementById("sitesCaontainer").innerHTML = tempSitesData;
 	}
 	this.createContainer(); 
   }
