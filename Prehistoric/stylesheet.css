@@ -59,7 +59,7 @@ main {
 }
 
 a {
-  color: rgb(129, 127, 117);
+  color: rgb(107, 105, 97);
   font-size: 50px;
   font-family: "Yellowtail", cursive;
   text-decoration: none;
@@ -99,7 +99,7 @@ a {
 h6 {
   text-align: end;
   font-size: 14px;
-  margin-right: 120px;
+  margin-right: 180px;
 }
 
 h1 {
@@ -107,5 +107,5 @@ h1 {
 }
 
 h3 {
-  margin: 10px 150px 10px 150px;
+  margin: 10px 200px 10px 200px;
 }
