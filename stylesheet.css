@@ -120,7 +120,7 @@ a {
   background-color: rgb(245, 223, 182);
 }
 
-#welcomePageContainer h1 {
+#welcome {
   font-size: 45px;
   color: rgb(129, 127, 117);
   font-family: "Yellowtail", cursive;
@@ -134,10 +134,10 @@ a {
   height: 50%;
   margin: 20px;
   margin-right: 0;
-  float: right;
+  /* float: right; */
 }
 
-p {
+#welcomeText {
   margin: 0 30px 200px 30px;
   font-size: 20px;
   color: rgb(107, 105, 97);
@@ -160,7 +160,7 @@ p {
     padding: 7px 40px;
   }
 
-  #welcomePageContainer h1 {
+  #welcome {
     font-size: 70px;
   }
 }
@@ -181,7 +181,34 @@ p {
     width: 85vw;
   }
 
+  .navButton {
+    padding: 15px 50px;
+  }
+
+  a {
+    font-size: 50px;
+  }
+
   #welcomePageContainer {
     width: 85vw;
+    flex-direction: column;
+    height: 1080px;
+  }
+
+  #welcome {
+    width: 30%;
+    height: 180px;
+  }
+
+  #welcomeText {
+    width: 30%;
+    height: 900px;
+  }
+
+  #ruinsPhoto {
+    width: 30%;
+    height: 800px;
+    order: 3;
+    margin: 50px;
   }
 }
