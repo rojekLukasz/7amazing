@@ -190,25 +190,40 @@ a {
   }
 
   #welcomePageContainer {
+    all: unset;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10% 90%;
+    /* flex-wrap: wrap; */
     width: 85vw;
-    flex-direction: column;
-    height: 1080px;
+    /* flex-direction: column; */
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: rgb(245, 223, 182);
   }
 
   #welcome {
-    width: 30%;
-    height: 180px;
+    grid-area: 1 / 1 / 2 / 2;
+    text-align: center;
+    /* width: 45%;
+    height: 180px; */
   }
 
   #welcomeText {
-    width: 30%;
-    height: 900px;
+    order: 2;
+    grid-area: 2 / 1 / 7 / 2;
+    /* width: 45%;
+    height: 900px; */
   }
 
   #ruinsPhoto {
-    width: 30%;
-    height: 800px;
+    grid-area: 1 / 2 / 7 / 3;
     order: 3;
     margin: 50px;
+    width: 35vw;
+    height: 80%;
   }
 }
