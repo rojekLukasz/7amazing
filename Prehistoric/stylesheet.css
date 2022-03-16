@@ -81,29 +81,37 @@ a {
 }
 
 .img1 {
-  width: 75%;
-  height: 38%;
+  /* width: 75%;
+  height: 38%; */
+  width: 95%;
+  height: 50%;
   margin: auto;
 }
 
 .img2 {
-  width: 75%;
-  height: 38%;
+  /* width: 75%;
+  height: 38%; */
+  width: 95%;
+  height: 50%;
   margin: auto;
   display: none;
 }
 
 .img3 {
-  width: 75%;
-  height: 38%;
+  /* width: 75%;
+  height: 38%; */
+  width: 95%;
+  height: 50%;
   margin: auto;
   display: none;
 }
 
 h6 {
   text-align: end;
-  font-size: 14px;
-  margin-right: 180px;
+  /* font-size: 14px; */
+  font-size: 12px;
+  /* margin-right: 180px; */
+  margin-right: 3%;
 }
 
 h1 {
@@ -111,5 +119,73 @@ h1 {
 }
 
 h3 {
-  margin: 10px 200px 10px 200px;
+  /* margin: 10px 200px 10px 200px; */
+  margin: 10px 20px 10px 20px;
+}
+
+@media only screen and (min-width: 500px) {
+  main {
+    width: 100vw;
+  }
+  #logoPhone {
+    display: none;
+  }
+
+  #logoDesktop {
+    display: block;
+    width: 100vw;
+  }
+
+  .navButton {
+    padding: 7px 40px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  main {
+    width: 85vw;
+  }
+
+  #home {
+    width: 85vw;
+  }
+
+  #logoDesktop {
+    width: 85vw;
+  }
+  #navbar {
+    width: 85vw;
+  }
+
+  .navButton {
+    padding: 15px 50px;
+  }
+
+  a {
+    font-size: 50px;
+  }
+
+  .img1 {
+    width: 75%;
+    height: 38%;
+  }
+
+  .img2 {
+    width: 75%;
+    height: 38%;
+  }
+
+  .img3 {
+    width: 75%;
+    height: 38%;
+  }
+
+  h6 {
+    font-size: 14px;
+    margin-right: 13%;
+  }
+
+  h3 {
+    margin: 10px 200px 10px 200px;
+  }
 }
