@@ -17,13 +17,13 @@ class Sites {
 	this.createContainer = function() { 
     tempSitesData +=	 `
   <div class='container'>
+  <h1>${this.id}.${this.name}</h1>
     <div class='photoFrame'>
       <img  class='img1' src='${this.img1}' alt='photo of ${this.name}'>
       <img class='img2' src='${this.img2}' alt='photo of ${this.name}'>
         <img class='img3' src='${this.img3}' alt='photo of ${this.name}'>
       </div>
       <h6>Location: ${this.location}</h6>
-      <h1>${this.id}.${this.name}</h1>
       <h3>${this.discription}</h3>
   </div>`;
   document.getElementById("sitesCaontainer").innerHTML = tempSitesData;

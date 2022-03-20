@@ -130,11 +130,14 @@ h6 {
 
 h1 {
   text-align: center;
+  margin-top: 0;
+  padding-top: 70px;
 }
 
 h3 {
   /* margin: 10px 200px 10px 200px; */
-  margin: 10px 20px 10px 20px;
+  margin: 10px 25px 10px 25px;
+  text-align: justify;
 }
 
 @media only screen and (min-width: 500px) {
@@ -152,6 +155,10 @@ h3 {
 
   .navButton {
     padding: 7px 40px;
+  }
+
+  img {
+    height: 400px;
   }
 }
 
@@ -179,19 +186,9 @@ h3 {
     font-size: 50px;
   }
 
-  .img1 {
+  img {
     width: 75%;
-    height: 38%;
-  }
-
-  .img2 {
-    width: 75%;
-    height: 38%;
-  }
-
-  .img3 {
-    width: 75%;
-    height: 38%;
+    height: 600px;
   }
 
   h6 {
