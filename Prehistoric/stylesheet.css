@@ -72,6 +72,7 @@ a {
 .container {
   background-color: rgb(245, 223, 182);
   padding-bottom: 50px;
+  position: relative;
 }
 
 .photoFrame {
@@ -80,30 +81,43 @@ a {
   align-items: center;
 }
 
-.img1 {
-  /* width: 75%;
-  height: 38%; */
-  width: 95%;
-  height: 50%;
-  margin: auto;
+.fa-angles-left {
+  position: absolute;
+  top: 200px;
+  left: 5%;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 7px;
+  background-color: rgba(247, 235, 214, 0.8);
+  cursor: pointer;
 }
 
-.img2 {
-  /* width: 75%;
-  height: 38%; */
-  width: 95%;
-  height: 50%;
-  margin: auto;
-  display: none;
+.fa-angles-left:hover {
+  transform: scale(1.1);
 }
 
-.img3 {
+.fa-angles-right {
+  position: absolute;
+  top: 200px;
+  right: 5%;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 7px;
+  background-color: rgba(247, 235, 214, 0.8);
+  cursor: pointer;
+}
+
+.fa-angles-right:hover {
+  transform: scale(1.1);
+}
+
+img {
   /* width: 75%;
   height: 38%; */
   width: 95%;
-  height: 50%;
+  height: 250px;
   margin: auto;
-  display: none;
+  position: relative;
 }
 
 h6 {
