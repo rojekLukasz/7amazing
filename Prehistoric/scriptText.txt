@@ -1,0 +1,31 @@
+      const img1_${this.id} = document.querySelector('#img1_${this.id}');
+      const img2_${this.id} = document.querySelector('#img2_${this.id}');
+      const img3_${this.id} = document.querySelector('#img3_${this.id}');
+      const leftIcon${this.id} = document.querySelector('#leftIcon${this.id}');
+      const rightIcon${this.id} = document.querySelector('#rightIcon${this.id}');
+      
+      leftIcon1.addEventListener('click', function() {
+        if (img1_${this.id}.style.display === 'block'){
+        img1_${this.id}.style.display = 'none';
+        img3_${this.id}.style.display = 'block'
+        }else if (img3_${this.id}.style.display === 'block'){
+          img3_${this.id}.style.display = 'none';
+        img2_${this.id}.style.display = 'block'
+        }else if (img2_${this.id}.style.display === 'block'){
+          img2_${this.id}.style.display = 'none';
+        img1_${this.id}.style.display = 'block'
+        }
+      })
+      
+      rightIcon${this.id}.addEventListener('click', function() {
+        if (img1_${this.id}.style.display === 'block'){
+        img1_${this.id}.style.display = 'none';
+        img2_${this.id}.style.display = 'block'
+        }else if (img2_${this.id}.style.display === 'block'){
+          img2_${this.id}.style.display = 'none';
+        img3_${this.id}.style.display = 'block'
+        }else if (img3_${this.id}.style.display === 'block'){
+          img3_${this.id}.style.display = 'none';
+        img1_${this.id}.style.display = 'block'
+        }
+      })

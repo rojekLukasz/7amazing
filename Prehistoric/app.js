@@ -11,7 +11,8 @@ class Sites {
     this.img2 = img2;
     this.img3 = img3;
     this.discription = discription;
-
+  
+    
     
   
 	this.createContainer = function() { 
@@ -19,12 +20,16 @@ class Sites {
   <div class='container'>
   <h1>${this.id}.${this.name}</h1>
     <div class='photoFrame'>
-      <img  class='img1' src='${this.img1}' alt='photo of ${this.name}'>
-      <img class='img2' src='${this.img2}' alt='photo of ${this.name}'>
-        <img class='img3' src='${this.img3}' alt='photo of ${this.name}'>
+        <img class='img1' style='display: block;' src='${this.img1}' alt='photo of ${this.name}'>
+        <img class='img2' style='display: none;' src='${this.img2}' alt='photo of ${this.name}'>
+        <img class='img3' style='display: none;' src='${this.img3}' alt='photo of ${this.name}'>
+        <i class="fa-solid fa-angles-left"></i>
+          <i class="fa-solid fa-angles-right"></i>
       </div>
       <h6>Location: ${this.location}</h6>
       <h3>${this.discription}</h3>
+      <script type="text/javascript" src="./scriptText.txt">
+      </script>
   </div>`;
   document.getElementById("sitesCaontainer").innerHTML = tempSitesData;
 	}
@@ -42,3 +47,39 @@ let site4 = new Sites(4, 'Skara Brae', 'Skara Brae, Sandwick, Stromness KW16 3LR
 let site5 = new Sites(5, 'Callanish standing stones', 'Calanais Standing Stones, 12m west of Stornoway off the A859 Isle of Lewis HS2 9DY', 'https://upload.wikimedia.org/wikipedia/commons/c/c6/Callanish_standing_stones_1.jpg', 'https://www.historicenvironment.scot/media/2120/cal1-000235_o1.jpg?crop=0,0.18285458008504607,0,0.019838545357902158&cropmode=percentage&width=800&height=480&rnd=132723871890000000', 'https://images.unsplash.com/photo-1533410189475-f8ea9fa082ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80', 'The Callanish Stones (or "Callanish I": Scottish Gaelic: Clachan Chalanais or Tursachan Chalanais) are an arrangement of standing stones placed in a cruciform pattern with a central stone circle. They were erected in the late Neolithic era, and were a focus for ritual activity during the Bronze Age. They are near the village of Callanish (Gaelic: Calanais) on the west coast of Lewis in the Outer Hebrides, Scotland.The Callanish Stones consist of a stone circle of thirteen stones with a monolith near the middle. Five rows of standing stones connect to this circle. Two long rows of stones running almost parallel to each other from the stone circle to the north-northeast form a kind of avenue. In addition, there are shorter rows of stones to the west-southwest, south and east-northeast. The stones are all of the same rock type, namely the local Lewisian gneiss. Within the stone circle is a chambered tomb to the east of the central stone.');
 let site6 = new Sites(6, 'Grianan of Aileach', 'Grianan of Aileach, Carrowreagh, Co. Donegal, Irlandia', 'https://upload.wikimedia.org/wikipedia/commons/0/06/Griahan_of_aileach.jpg', 'https://images.unsplash.com/photo-1603522961978-c030b89999c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80', 'http://www.megalithicireland.com/Donegal/Grianan%20of%20Ailech%20001L.jpg', 'Grianán of Aileach is probably the best known monument in Inishowen, County Donegal. Situated on a hilltop 250m above sea level the view from the stone fort of Aileach is breathtaking.The Stone Fort of Grianán of Aileach sits on a hilltop in Inishowen County Donegal. 250m above sea level, the stone fort was probably first built on an earthen rath.The view from Aileach is breathtaking. The glistening waters of Lough Foyle and Lough Swilly are clear, as is the form of the entire peninsula. A windy and exposed place, Grianán has been a silent witness to the history of Ireland.The origins of the Grianán of Aileach fort are dated back to 1700 BC. It is linked to the Tuatha de Danann who invaded Ireland before the Celts and built stone forts on top of strategic hills. They worshipped Dagda (the Good God) and he too is associated with the origins of Aileach. It was he who ordered the building of a stone fort to act as a burial monument to his dead son.The round fort is built largely without mortar. The interior has three terraces and wooden structures were built against the terraces to provide accommodation. The outline of Bronze Age or Iron Age ramparts can be seen below the fort. Legend states that the giants of Inishowen are lying sleeping but when the sacred sword is removed they will spring to life reclaiming their ancient lands.Mr Walter Bernard of Derry restored the stone fort or cashel in the 1870s. It is the centrepiece of the site, 23m in internal diameter with walls measuring 5m in height and approximately 4m in thickness. The dry stone walls contain two passages within them as well as terraces along their interior which would have allowed access to their summit');
 let site7 = new Sites(7, 'Giant\'s Ring', 'Giant\'s Ring, Belfast BT8 8LE', 'https://eu-assets.simpleview-europe.com/northernireland/imageresizer/?image=%2Fdmsimgs%2F073EF6FB6FCFE1C5C527391866D0D30337D2604D.jpg&action=ProductDetailImage', 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Northern_Ireland_Belfast_Giants_Ring_001.jpg/1920px-Northern_Ireland_Belfast_Giants_Ring_001.jpg', 'https://www.irishnews.com/picturesarchive/irishnews/irishnews/2017/06/21/122114344-722f23dc-3721-4c6f-a4f0-1b75d58b5ab7.jpg', 'The Giant\'s Ring is a henge monument at Ballynahatty, near Shaw\'s Bridge, Belfast, Northern Ireland. It was originally preserved by Viscount Dungannon. The inscribed stone tablet on the wall surrounding the site which details Viscount Dungannon\'s interest was carved by Belfast stonecarver Charles A Thompson about c.1919.The site is a State Care Historic Monument and has ASAI (Area of Significant Archaeological Interest) status. The site consists of a circular enclosure, 180 m (590 ft) in diameter and 2.8 hectares (6.9 acres) in area, surrounded by a circular earthwork bank 3.5 m (11 ft) high. At least three of the five irregularly spaced gaps in the bank are intentional and possibly original. East of the centre of the enclosure is a small passage tomb with a vestigial passage facing west. There were reports of other tombs outside the enclosure, but there is no trace of these.The Giant\'s Ring dates from the Neolithic period and was built around 2700BC, meaning that it predates the Egyptian pyramids. The site has had some sort of public use throughout its history. It is near the Shaw\'s Bridge crossing of the River Lagan, a point which has been used as a crossing of the river since at least the Stone Age.[5] The original purpose of the monument was most likely as a meeting place or as a memorial to the dead. Archaeologist Michael J. O\'Kelly believed that the Giant\'s Ring, like hundreds of other passage tombs built in Ireland during the Neolithic period, such as Newgrange, showed evidence for a religion which venerated the dead as one of its core principles. He believed that this "cult of the dead" was just one particular form of European Neolithic religion, and that other megalithic monuments displayed evidence for different religious beliefs which were solar, rather than death-orientated. In the 18th century the site was used for horse racing. A ritual site adjacent to the henge was excavated in the early 1990s by Barrie Hartwell of the Queen\'s University of Belfast.');
+
+
+const img1 = document.querySelectorAll('.img1');
+const img2 = document.querySelectorAll('.img2');
+const img3 = document.querySelectorAll('.img3');
+const leftIcon = document.querySelectorAll('.fa-angles-left');
+const rightIcon = document.querySelectorAll('.fa-angles-right');
+
+
+for (let i = 0; i < img1.length; i++) {
+  leftIcon[i].addEventListener('click', function() {
+    if (img1[i].style.display === 'block'){
+    img1[i].style.display = 'none';
+    img3[i].style.display = 'block'
+    }else if (img3[i].style.display === 'block'){
+      img3[i].style.display = 'none';
+    img2[i].style.display = 'block'
+    }else if (img2[i].style.display === 'block'){
+      img2[i].style.display = 'none';
+    img1[i].style.display = 'block'
+    }
+  })
+
+  rightIcon[i].addEventListener('click', function() {
+    if (img1[i].style.display === 'block'){
+    img1[i].style.display = 'none';
+    img2[i].style.display = 'block'
+    }else if (img2[i].style.display === 'block'){
+      img2[i].style.display = 'none';
+    img3[i].style.display = 'block'
+    }else if (img3[i].style.display === 'block'){
+      img3[i].style.display = 'none';
+    img1[i].style.display = 'block'
+  }
+})
+}
