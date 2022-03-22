@@ -75,6 +75,22 @@ a {
   position: relative;
 }
 
+.weather {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(245, 194, 100);
+  font-family: "Oswald", sans-serif;
+}
+
+.iconWeather {
+  width: 70px;
+  height: 60px;
+  /* padding: -10px; */
+}
+
 .photoFrame {
   display: flex;
   flex-direction: column;
@@ -111,7 +127,25 @@ a {
   transform: scale(1.1);
 }
 
-img {
+.img1_1 {
+  /* width: 75%;
+  height: 38%; */
+  width: 95%;
+  height: 250px;
+  margin: auto;
+  position: relative;
+}
+
+.img1_2 {
+  /* width: 75%;
+  height: 38%; */
+  width: 95%;
+  height: 250px;
+  margin: auto;
+  position: relative;
+}
+
+.img1_3 {
   /* width: 75%;
   height: 38%; */
   width: 95%;
@@ -157,7 +191,15 @@ h3 {
     padding: 7px 40px;
   }
 
-  img {
+  .img1_1 {
+    height: 400px;
+  }
+
+  .img1_2 {
+    height: 400px;
+  }
+
+  .img1_3 {
     height: 400px;
   }
 
@@ -206,9 +248,23 @@ h3 {
     font-size: 50px;
   }
 
-  img {
+  .img1_1 {
     width: 75%;
     height: 600px;
+  }
+
+  .img1_2 {
+    width: 75%;
+    height: 600px;
+  }
+
+  .img1_3 {
+    width: 75%;
+    height: 600px;
+  }
+
+  .weather {
+    width: 75%;
   }
 
   h6 {
