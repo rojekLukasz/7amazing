@@ -18,15 +18,15 @@ leftIcon1.addEventListener('click', function() {
 })
 
 // rightIcon1.addEventListener('click', function() {
-//   if (img1_1.style.display === 'block'){
-//   img1_1.style.display = 'none';
-//   img2_1.style.display = 'block'
-//   }else if (img2_1.style.display === 'block'){
-//     img2_1.style.display = 'none';
-//   img3_1.style.display = 'block'
-//   }else if (img3_1.style.display === 'block'){
-//     img3_1.style.display = 'none';
-//   img1_1.style.display = 'block'
+//   if (img1.style.display === 'block'){
+//   img1.style.display = 'none';
+//   img2.style.display = 'block'
+//   }else if (img2.style.display === 'block'){
+//     img2.style.display = 'none';
+//   img3.style.display = 'block'
+//   }else if (img3.style.display === 'block'){
+//     img3.style.display = 'none';
+//   img1.style.display = 'block'
 //   }
 // })
 // for (let i = 0; i < img1.length; i++) {

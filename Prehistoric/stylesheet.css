@@ -75,20 +75,10 @@ a {
   position: relative;
 }
 
-.weather {
-  width: 95%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: rgb(245, 194, 100);
-  font-family: "Oswald", sans-serif;
-}
-
-.iconWeather {
-  width: 70px;
-  height: 60px;
-  /* padding: -10px; */
+h1 {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 10px;
 }
 
 .photoFrame {
@@ -127,7 +117,7 @@ a {
   transform: scale(1.1);
 }
 
-.img1_1 {
+.img1 {
   /* width: 75%;
   height: 38%; */
   width: 95%;
@@ -136,7 +126,7 @@ a {
   position: relative;
 }
 
-.img1_2 {
+.img2 {
   /* width: 75%;
   height: 38%; */
   width: 95%;
@@ -145,33 +135,44 @@ a {
   position: relative;
 }
 
-.img1_3 {
+.img3 {
   /* width: 75%;
   height: 38%; */
   width: 95%;
   height: 250px;
   margin: auto;
   position: relative;
+}
+
+.weather {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(245, 194, 100);
+  font-family: "Oswald", sans-serif;
+}
+
+span {
+  font-size: 12px;
+  font-weight: 700;
 }
 
 h6 {
   text-align: end;
   /* font-size: 14px; */
-  font-size: 12px;
+  font-size: 11px;
   /* margin-right: 180px; */
-  margin-right: 3%;
-}
-
-h1 {
-  text-align: center;
-  margin-top: 0;
-  padding-top: 70px;
+  margin: 20px 4% 20px 4%;
 }
 
 h3 {
-  /* margin: 10px 200px 10px 200px; */
-  margin: 10px 25px 10px 25px;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px 6% 10px 6%;
   text-align: justify;
+  padding-bottom: 10px;
 }
 
 @media only screen and (min-width: 500px) {
@@ -191,15 +192,15 @@ h3 {
     padding: 7px 40px;
   }
 
-  .img1_1 {
+  .img1 {
     height: 400px;
   }
 
-  .img1_2 {
+  .img2 {
     height: 400px;
   }
 
-  .img1_3 {
+  .img3 {
     height: 400px;
   }
 
@@ -248,17 +249,17 @@ h3 {
     font-size: 50px;
   }
 
-  .img1_1 {
+  .img1 {
     width: 75%;
     height: 600px;
   }
 
-  .img1_2 {
+  .img2 {
     width: 75%;
     height: 600px;
   }
 
-  .img1_3 {
+  .img3 {
     width: 75%;
     height: 600px;
   }
