@@ -78,6 +78,7 @@ a {
 h1 {
   text-align: center;
   margin-top: 0;
+  font-size: 28px;
   padding-top: 10px;
 }
 
@@ -169,8 +170,9 @@ h6 {
 
 h3 {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   margin: 10px 6% 10px 6%;
+  text-indent: 5%;
   text-align: justify;
   padding-bottom: 10px;
 }
@@ -192,6 +194,10 @@ h3 {
     padding: 7px 40px;
   }
 
+  h1 {
+    font-size: 50px;
+  }
+
   .img1 {
     height: 400px;
   }
@@ -210,6 +216,18 @@ h3 {
 
   .fa-angles-right {
     top: 320px;
+  }
+
+  span {
+    font-size: 15px;
+  }
+
+  h6 {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 20px;
   }
 }
 
@@ -235,6 +253,10 @@ h3 {
 
   a {
     font-size: 50px;
+  }
+
+  h1 {
+    font-size: 60px;
   }
 
   .fa-angles-left {
@@ -274,6 +296,6 @@ h3 {
   }
 
   h3 {
-    margin: 10px 200px 10px 200px;
+    margin: 10px 15% 10px 15%;
   }
 }
