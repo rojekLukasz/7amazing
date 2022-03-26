@@ -38,7 +38,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 230px;
-  bottom: 12%;
+  bottom: 20%;
   background-color: rgb(250, 202, 90);
   border: none;
   text-align: center;
@@ -143,6 +143,10 @@ a {
 }
 
 @media only screen and (min-width: 500px) {
+  #startButton {
+    bottom: 12%;
+  }
+
   main {
     width: 100vw;
   }
