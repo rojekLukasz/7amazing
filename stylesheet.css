@@ -38,14 +38,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 230px;
-  bottom: 25%;
-  /* position: absolute;
-  bottom: 13%;
-  left: 50%;
-  margin: auto; */
+  bottom: 12%;
   background-color: rgb(250, 202, 90);
   border: none;
   text-align: center;
+  cursor: pointer;
 }
 
 #startButton:hover {
@@ -143,12 +140,6 @@ a {
   text-indent: 6%;
   text-align: justify;
   color: rgb(107, 105, 97);
-}
-
-@media only screen and (max-height: 500px) {
-  #startButton {
-    bottom: 10%;
-  }
 }
 
 @media only screen and (min-width: 500px) {
