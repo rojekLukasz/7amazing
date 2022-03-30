@@ -83,7 +83,7 @@ this.createContainer = function() {
       <h3>${this.discription}</h3>
   </div>`;
   document.getElementById("sitesCaontainer").innerHTML = tempSitesData;
-	}, 600)
+	}, 1000)
 }
 	this.createContainer(); 
 
@@ -149,7 +149,7 @@ for (let i = 0; i < img1.length; i++) {
 
 
 
-}, 600);
+}, 1000);
 
 
 
